@@ -29,7 +29,7 @@ button {
   border: none;
   background-color: #e9c46a;
   cursor: pointer;
-  color: #1a1a1a;
+  color: #ffffff;
   border-radius: 7px;
   font-size: 18px;
   transition: transform 0.3s ease, 0.3s ease;
@@ -45,3 +45,22 @@ hr {
   width: 20%;
   border: 1px solid #fff;
 }
+
+
+@media only screen and (max-width: 1200px) {
+  .header {
+    font-size: 24px;
+  }
+  .advice-container {
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  button {
+    margin-top: 2rem;
+  }
+
+  .app {
+    margin: auto;
+  }
+} 
